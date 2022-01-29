@@ -89,17 +89,17 @@ Project is opened for contributions.
 
 ## Screenshots
 
-- This is the Employee test screenshot.
+- This is the Employee test screenshot. br/
   ![screenshot](./src/utils/employee_test.JPG)
 
 ---
 
-- This is the Engineer test screenshot.
+- This is the Engineer test screenshot. br/
   ![screenshot](./src/utils/engineer_test.JPG)
 
 ---
 
-- This is the Intern test screenshot.
+- This is the Intern test screenshot. n/
   ![screenshot](./src/utils/intern_test.JPG)
 
 ---

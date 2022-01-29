@@ -19,17 +19,24 @@
 
 ## Git Repository
 
-I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/readme-generator)
+I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/team-profile-generator)
 
 ## Link to the walktrough video functionality
 
-Application video [demo](https://watch.screencastify.com/v/aTk4SiPgq2Lq4gRN6qjc)
+Application video [demo]()
 
 ## Description:
 
 I will build a readme file generator application using Node.js that will allow me to quickly and easily create a readme file for my future project .
 
 ## Pseudo code description
+
+- created a repository and an readme.md file for the project
+- ran npm init to create dependencies
+- download the inquirer
+- created the file structure for the app.
+- Created an employee class and exported
+- created the text file
 
 ## Build process
 
@@ -58,7 +65,7 @@ Run this command to start the app:
 Run this command to run the test
 
 <pre><code>
-  node index.js
+  npm run test:watch
   </code></pre>
 
 ## License:
@@ -79,4 +86,4 @@ Project is opened for contributions.
 
 ## Screenshots
 
-- This is the screenshot of the final application. ![screenshot](./utils/Generated_Markdown.JPG)
+- This is the screenshot of the final application. ![screenshot](./)

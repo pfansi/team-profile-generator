@@ -31,6 +31,8 @@ I will build a readme file generator application using Node.js that will allow m
 
 ## Pseudo code description
 
+## Build process
+
 - created a repository and an readme.md file for the project
 - ran npm init to install dependencies.
 - download the inquirer.
@@ -40,8 +42,6 @@ I will build a readme file generator application using Node.js that will allow m
 - created the class Engineer and test it
 - created the Intern Class file and test it.
 - created the manager class file and test it .
-
-## Build process
 
 ## Installation:
 
@@ -89,4 +89,16 @@ Project is opened for contributions.
 
 ## Screenshots
 
-- This is the screenshot of the final application. ![screenshot](./)
+- This is the Employee test screenshot. ![screenshot](./src/utils/employee_test.JPG)
+
+---
+
+- This is the Engineer test screenshot. ![screenshot](./src/utils/engineer_test.JPG)
+
+---
+
+- This is the Intern test screenshot. ![screenshot](./src/utils/intern_test.JPG)
+
+---
+
+- This is the Manager test screenshot. ![screenshot](./src/utils/manager_test.JPG)---

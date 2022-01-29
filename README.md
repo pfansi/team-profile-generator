@@ -21,7 +21,7 @@
 
 I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/team-profile-generator)
 
-## Link to the walktrough video functionality
+## Link to the walktrough video
 
 Application video [demo]()
 

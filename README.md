@@ -37,6 +37,7 @@ I will build a readme file generator application using Node.js that will allow m
 - created the file structure for the app.
 - Created an employee class and exported
 - created the text file
+- created the class Engineer and test it
 
 ## Build process
 

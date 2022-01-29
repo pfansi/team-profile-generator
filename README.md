@@ -89,16 +89,22 @@ Project is opened for contributions.
 
 ## Screenshots
 
-- This is the Employee test screenshot. ![screenshot](./src/utils/employee_test.JPG)
+- This is the Employee test screenshot.
+  ![screenshot](./src/utils/employee_test.JPG)
 
 ---
 
-- This is the Engineer test screenshot. ![screenshot](./src/utils/engineer_test.JPG)
+- This is the Engineer test screenshot.
+  ![screenshot](./src/utils/engineer_test.JPG)
 
 ---
 
-- This is the Intern test screenshot. ![screenshot](./src/utils/intern_test.JPG)
+- This is the Intern test screenshot.
+  ![screenshot](./src/utils/intern_test.JPG)
 
 ---
 
-- This is the Manager test screenshot. ![screenshot](./src/utils/manager_test.JPG)---
+- This is the Manager test screenshot.
+  ![screenshot](./src/utils/manager_test.JPG)
+
+---

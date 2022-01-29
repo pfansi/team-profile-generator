@@ -32,12 +32,14 @@ I will build a readme file generator application using Node.js that will allow m
 ## Pseudo code description
 
 - created a repository and an readme.md file for the project
-- ran npm init to create dependencies
-- download the inquirer
+- ran npm init to install dependencies.
+- download the inquirer.
 - created the file structure for the app.
-- Created an employee class and exported
-- created the text file
+- Created an employee class and exported.
+- created the text file.
 - created the class Engineer and test it
+- created the Intern Class file and test it.
+- created the manager class file and test it .
 
 ## Build process
 

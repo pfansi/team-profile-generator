@@ -1,5 +1,4 @@
 const Intern = require("../src/lib/Intern");
-const intern = require("../src/lib/Intern");
 
 const myIntern = new Intern(
   "Marie",

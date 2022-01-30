@@ -5,7 +5,7 @@ const myEngineer = new Engineer(
   3060,
   "john@gmail.com",
   "engineer",
-  "John76 p"
+  "John76"
 );
 
 describe("Engineer", () => {
@@ -36,8 +36,6 @@ describe("Engineer", () => {
 
 describe("Engineer", () => {
   it("is going to check if the Engineer class has a GitHub", () => {
-    expect(myEngineer.engineerEmail).not.toContainEqual(
-      expect.stringContaining(" ")
-    );
+    expect(myEngineer.engineerGithub).toEqual(expect.not.stringContaining(" "));
   });
 });

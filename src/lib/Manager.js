@@ -1,9 +1,10 @@
 // Intern class will have name, employee ID, email address, and office number
 class Manager {
-  constructor(name, id, email, officeNumber) {
+  constructor(name, id, email, role, officeNumber) {
     this.managerName = name;
     this.managerId = id;
     this.managerEmail = email;
+    this.managerRole = role;
     this.managerOfficeNumber = officeNumber;
   }
 
@@ -17,6 +18,10 @@ class Manager {
 
   getEmail() {
     return this.managerEmail;
+  }
+
+  getRole() {
+    return this.managerRole;
   }
 
   getOfficeNumber() {

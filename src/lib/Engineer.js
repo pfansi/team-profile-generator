@@ -1,10 +1,11 @@
 // Engineer class will have name, ID, email, and GitHub username,
 class Engineer {
-  constructor(name, id, email, username) {
+  constructor(name, id, email, role, github) {
     this.engineerName = name;
     this.engineerId = id;
     this.engineerEmail = email;
-    this.engineerUsername = username;
+    this.engineerRole = role;
+    this.engineerGithub = github;
   }
 
   getName() {
@@ -19,8 +20,12 @@ class Engineer {
     return this.engineerEmail;
   }
 
-  getUsername() {
-    return this.engineerUsername;
+  getRole() {
+    return this.engineerRole;
+  }
+
+  getGithub() {
+    return this.engineerGithub;
   }
 }
 

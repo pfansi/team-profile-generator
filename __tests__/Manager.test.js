@@ -1,6 +1,6 @@
 const Manager = require("../src/lib/Manager");
 
-const myManager = new Manager("Brad", 7025, "brad@gmail.com", 10);
+const myManager = new Manager("Brad", 7025, "brad@gmail.com", "manager", 10);
 
 describe("Manager", () => {
   it("is going to check if the Manager class has a name", () => {
@@ -15,8 +15,16 @@ describe("Manager", () => {
 });
 
 describe("Manager", () => {
-  it("is going to check if the Manager class has an Email", () => {
-    expect(myManager.managerEmail).toEqual(expect.any(String));
+  it("is going to check if the manager class has an Email", () => {
+    expect(myManager.managerEmail).toContainEqual(
+      expect.stringContaining("@", ".")
+    );
+  });
+});
+
+describe("Manager", () => {
+  it("is going to check if the manager class has a Role", () => {
+    expect(myManager.managerRole).toMatch("manager");
   });
 });
 

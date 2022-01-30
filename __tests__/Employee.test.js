@@ -1,6 +1,6 @@
 const Employee = require("../src/lib/Employee");
 
-const myEmployee = new Employee("Paul", 2715, "paul@gmail.com", "employee");
+const myEmployee = new Employee("Paul", 2715, "tudor@gmail.com", "employee");
 
 describe("Employee", () => {
   it("is going to check if the employee class has a name", () => {
@@ -16,12 +16,14 @@ describe("Employee", () => {
 
 describe("Employee", () => {
   it("is going to check if the employee class has an Email", () => {
-    expect(myEmployee.employeeEmail).toEqual(expect.any(String));
+    expect(myEmployee.employeeEmail).toContainEqual(
+      expect.stringContaining("@", ".")
+    );
   });
 });
 
 describe("Employee", () => {
   it("is going to check if the employee class has a Role", () => {
-    expect(myEmployee.employeeRole).toEqual(expect.any(String));
+    expect(myEmployee.employeeRole).toMatch("employee");
   });
 });

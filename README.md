@@ -99,12 +99,12 @@ Project is opened for contributions.
 
 ---
 
-- This is the Intern test screenshot. n/
+- This is the Intern test screenshot. br/
   ![screenshot](./src/utils/intern_test.JPG)
 
 ---
 
-- This is the Manager test screenshot.
+- This is the Manager test screenshot. br/
   ![screenshot](./src/utils/manager_test.JPG)
 
 ---

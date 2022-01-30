@@ -1,6 +1,12 @@
 const Engineer = require("../src/lib/Engineer");
 
-const myEngineer = new Engineer("John", 3060, "john@gmail.com", "@John");
+const myEngineer = new Engineer(
+  "John",
+  3060,
+  "john@gmail.com",
+  "engineer",
+  "John76 p"
+);
 
 describe("Engineer", () => {
   it("is going to check if the Engineer class has a name", () => {
@@ -16,12 +22,22 @@ describe("Engineer", () => {
 
 describe("Engineer", () => {
   it("is going to check if the Engineer class has an Email", () => {
-    expect(myEngineer.engineerEmail).toEqual(expect.any(String));
+    expect(myEngineer.engineerEmail).toContainEqual(
+      expect.stringContaining("@", ".")
+    );
   });
 });
 
 describe("Engineer", () => {
-  it("is going to check if the Engineer class has a username", () => {
-    expect(myEngineer.engineerUsername).toEqual(expect.any(String));
+  it("is going to check if the engineer class has a Role", () => {
+    expect(myEngineer.engineerRole).toMatch("engineer");
+  });
+});
+
+describe("Engineer", () => {
+  it("is going to check if the Engineer class has a GitHub", () => {
+    expect(myEngineer.engineerEmail).not.toContainEqual(
+      expect.stringContaining(" ")
+    );
   });
 });

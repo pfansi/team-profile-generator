@@ -1,9 +1,10 @@
 // Intern class will have name, ID, email, and school,
 class Intern {
-  constructor(name, id, email, school) {
+  constructor(name, id, email, role, school) {
     this.internName = name;
     this.internId = id;
     this.internEmail = email;
+    this.internRole = role;
     this.internSchool = school;
   }
 
@@ -17,6 +18,10 @@ class Intern {
 
   getEmail() {
     return this.internEmail;
+  }
+
+  getRole() {
+    return this.internRole;
   }
 
   getSchool() {

@@ -42,6 +42,8 @@ I will build a readme file generator application using Node.js that will allow m
 - created the class Engineer and test it
 - created the Intern Class file and test it.
 - created the manager class file and test it .
+- created questions for each role.
+- created template html
 
 ## Installation:
 

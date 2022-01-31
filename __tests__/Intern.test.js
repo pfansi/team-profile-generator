@@ -4,33 +4,31 @@ const myIntern = new Intern(
   "Marie",
   6037,
   "marie@gmail.com",
-  "intern",
+  "Intern",
   "Manchester College"
 );
 
 describe("Intern", () => {
   it("is going to check if the Intern class has a name", () => {
-    expect(myIntern.internName).toEqual(expect.any(String));
+    expect(myIntern.name).toEqual(expect.any(String));
   });
 });
 
 describe("Intern", () => {
   it("is going to check if the Intern class has an ID", () => {
-    expect(myIntern.internId).toEqual(expect.any(Number));
+    expect(myIntern.id).toEqual(expect.any(Number));
   });
 });
 
 describe("Intern", () => {
   it("is going to check if the Intern class has an Email", () => {
-    expect(myIntern.internEmail).toContainEqual(
-      expect.stringContaining("@", ".")
-    );
+    expect(myIntern.email).toContainEqual(expect.stringContaining("@", "."));
   });
 });
 
 describe("Intern", () => {
   it("is going to check if the intern class has a Role", () => {
-    expect(myIntern.internRole).toMatch("intern");
+    expect(myIntern.getRole()).toMatch("Intern");
   });
 });
 describe("Intern", () => {

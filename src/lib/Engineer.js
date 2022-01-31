@@ -1,27 +1,16 @@
-// Engineer class will have name, ID, email, and GitHub username,
-class Engineer {
-  constructor(name, id, email, role, github) {
-    this.engineerName = name;
-    this.engineerId = id;
-    this.engineerEmail = email;
-    this.engineerRole = role;
-    this.engineerGithub = github;
-  }
+// Engineer class will extends Employee class
+// and have name, ID, email, and GitHub username,
 
-  getName() {
-    return this.engineerName;
-  }
+const Employee = require("./employee");
 
-  getId() {
-    return this.engineerId;
-  }
-
-  getEmail() {
-    return this.engineerEmail;
+class Engineer extends Employee {
+  constructor(name, id, email, engineerGithub) {
+    super(name, id, email);
+    this.engineerGithub = engineerGithub;
   }
 
   getRole() {
-    return this.engineerRole;
+    return "Engineer";
   }
 
   getGithub() {

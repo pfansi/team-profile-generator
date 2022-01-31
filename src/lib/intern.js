@@ -1,27 +1,16 @@
-// Intern class will have name, ID, email, and school,
-class Intern {
-  constructor(name, id, email, role, school) {
-    this.internName = name;
-    this.internId = id;
-    this.internEmail = email;
-    this.internRole = role;
-    this.internSchool = school;
-  }
+// Intern class will extends Employee class
+// and have name, ID, email, and internSchool,
 
-  getName() {
-    return this.internName;
-  }
+const Employee = require("./employee");
 
-  getId() {
-    return this.internId;
-  }
-
-  getEmail() {
-    return this.internEmail;
+class Intern extends Employee {
+  constructor(name, id, email, internSchool) {
+    super(name, id, email);
+    this.internSchool = internSchool;
   }
 
   getRole() {
-    return this.internRole;
+    return "Intern";
   }
 
   getSchool() {

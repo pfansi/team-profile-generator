@@ -1,31 +1,20 @@
-// Intern class will have name, employee ID, email address, and office number
-class Manager {
-  constructor(name, id, email, role, officeNumber) {
-    this.managerName = name;
-    this.managerId = id;
-    this.managerEmail = email;
-    this.managerRole = role;
-    this.managerOfficeNumber = officeNumber;
-  }
+// Manager class will extends Employee class
+// and have name, ID, email, and managerOfficeNumber,
 
-  getName() {
-    return this.managerName;
-  }
+const Employee = require("./employee");
 
-  getId() {
-    return this.managerId;
-  }
-
-  getEmail() {
-    return this.managerEmail;
+class Manager extends Employee {
+  constructor(name, id, email, officeNumber) {
+    super(name, id, email);
+    this.officeNumber = officeNumber;
   }
 
   getRole() {
-    return this.managerRole;
+    return "Manager";
   }
 
   getOfficeNumber() {
-    return this.managerOfficeNumber;
+    return this.officeNumber;
   }
 }
 

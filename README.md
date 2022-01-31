@@ -108,3 +108,6 @@ Project is opened for contributions.
   ![screenshot](./src/utils/manager_test.JPG)
 
 ---
+
+- Total test executed screenshot. br/
+  ![screenshot](./src/utils/total_test.JPG)

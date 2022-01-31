@@ -94,18 +94,15 @@ Project is opened for contributions.
 
 ---
 
-- This is the Engineer test screenshot. br/
-  ![screenshot](./src/utils/engineer_test.JPG)
+![screenshot](./src/utils/engineer_test.JPG)
 
 ---
 
-- This is the Intern test screenshot. br/
-  ![screenshot](./src/utils/intern_test.JPG)
+![screenshot](./src/utils/intern_test.JPG)
 
 ---
 
-- This is the Manager test screenshot. br/
-  ![screenshot](./src/utils/manager_test.JPG)
+![screenshot](./src/utils/manager_test.JPG)
 
 ---
 

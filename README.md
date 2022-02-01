@@ -27,24 +27,26 @@ Application video [demo]()
 
 ## Description:
 
-I will build a readme file generator application using Node.js that will allow me to quickly and easily create a readme file for my future project .
+This project required to build a Node.js command-line application that will take users input and build an html file.
+It is an app that takes employee information on a software engineering related company and generates an HTML webpage that displays the role and the info of team team members.
+A Tests function will also be written for each constructor class in the app using Jest to ensure that inputs are relevant to our criteria.
 
-## Pseudo code description
+## pseudo code description
 
 ## Build process
 
-- created a repository and an readme.md file for the project
+- created a repository and a readme.md file for the project
 - ran npm init to install dependencies.
 - download the inquirer.
 - created the file structure for the app.
 - Created an employee class and exported.
 - created the text file.
-- created the class Engineer and test it
-- created the Intern Class file and test it.
-- created the manager class file and test it .
+- created the class Engineer and tested it
+- created the Intern Class file and tested it.
+- create the manager class file and test it .
 - created questions for each role.
 - created template html and css file
-- create
+- create functions that will generate the html file.
 
 ## Installation:
 

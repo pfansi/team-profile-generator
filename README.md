@@ -23,7 +23,7 @@ I created a git repository folder that will host the finished project. The Repos
 
 ## Link to the walktrough video
 
-Application video [demo]()
+Application video [demo](https://watch.screencastify.com/v/SpbnDkIb8xDQhldp6Yk5)
 
 ## Description:
 
@@ -46,7 +46,8 @@ A Tests function will also be written for each constructor class in the app usin
 - create the manager class file and test it .
 - created questions for each role.
 - created template html and css file
-- create functions that will generate the html file.
+- created functions that will generate the html file.
+- created a walkthrough video to demo our finished application
 
 ## Installation:
 
@@ -113,3 +114,6 @@ Project is opened for contributions.
 
 - Total test executed screenshot. br/
   ![screenshot](./src/utils/total_test.JPG)
+
+- Screenshot of the finished application
+  ![screenshot](./src/utils/finished_app.JPG)

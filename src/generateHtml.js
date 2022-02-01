@@ -1,8 +1,8 @@
-const generateTeam = (team) => {
-  console.log(team);
-  // Create an empty array to push html elements on to and loop through the team data
+const generateTeam = (myTeam) => {
+  console.log(myTeam);
+  // Create an empty array to push html elements
   const generateCards = [];
-  // Create functions for each type of employee that returns HTML data
+  // Create functions that will return each type of employee role html data
   const generateManager = (manager) => {
     console.log(manager);
     let managerCard = ` 
@@ -52,24 +52,24 @@ const generateTeam = (team) => {
     generateCards.push(internCard);
   };
 
-  // create a loop for all of the employees
-  for (let i = 0; i < team.length; i++) {
-    if (team[i].getRole() === "Manager") {
-      generateManager(team[i]);
+  // this conditional will loop to choose exactly which employee role should be generate
+  for (let i = 0; i < myTeam.length; i++) {
+    if (myTeam[i].getRole() === "Manager") {
+      generateManager(myTeam[i]);
     }
-    if (team[i].getRole() === "Engineer") {
-      generateEngineer(team[i]);
+    if (myTeam[i].getRole() === "Engineer") {
+      generateEngineer(myTeam[i]);
     }
-    if (team[i].getRole() === "Intern") {
-      generateIntern(team[i]);
+    if (myTeam[i].getRole() === "Intern") {
+      generateIntern(myTeam[i]);
     }
   }
 
-  // join the HTML blocks
+  // this methods will join all the HTML blocks
   return generateCards.join("");
 };
 // export function to generate entire page
-module.exports = (team) => {
+module.exports = (myTeam) => {
   return `
     <!DOCTYPE html>
 <html lang="en">
@@ -80,14 +80,14 @@ module.exports = (team) => {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1e0a13a89f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../dist/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Team Profile Generator</title>
 </head>
 <body>
     <header>
     <h1> My Team </h1>
     </header>
-    <main> ${generateTeam(team)} </main>
+    <main> ${generateTeam(myTeam)} </main>
      
 </body>
 </html>

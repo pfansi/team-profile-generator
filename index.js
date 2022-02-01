@@ -258,6 +258,8 @@ const buildMyTeam = () => {
     fs.mkdirSync(OUTPUT_DIR);
   }
   fs.writeFileSync(outputPath, generateHtml(teamMates), "utf-8");
+
+  console.log("Successfully generated an index.htm file for my team");
 };
 
 createManager();

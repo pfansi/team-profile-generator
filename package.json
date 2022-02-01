@@ -1,7 +1,7 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-blue)",
   "main": "index.js",
   "directories": {
     "lib": "lib",
